@@ -1,0 +1,22 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "This is a rock paper scissors game.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skuderski/rock-paper-scissors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skuderski/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/skuderski/rock-paper-scissors#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

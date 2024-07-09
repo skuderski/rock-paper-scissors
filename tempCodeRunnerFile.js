@@ -1,6 +1,14 @@
-let choice = ['rock', 'paper', 'scissors'];
-function getComputerChoice(choice) {
-    return [Math.floor(Math.random() * choice.length)];
-}
+function getHumanChoice() {
+let choose = prompt("Rock, Paper, Scissors?");
 
-console.log(getComputerChoice(choice));
+if (choose === "Rock") {
+    console.log("You: Rock")
+    return "Rock";
+} else if (choose === "Paper") {
+    console.log("You: Paper")
+    return "Paper";
+} else if (choose === "Scissors") {
+    console.log("You: Scissors")
+    return "Scissors";
+}
+}
