@@ -13,7 +13,7 @@ console.log(getComputerChoice(choice));
 
 let choose = prompt("Rock, Paper, Scissors?");
 function getHumanChoice(choose) {
-choose = choose.charAt(0).toUpperCase() + choice.slice(1).toLowerCase();
+let choices = choose.toLowerCase(0)
 
 if (choose === "Rock") {
     return "Rock";
@@ -23,13 +23,10 @@ if (choose === "Rock") {
     return "Scissors";
 }
  else {
-    alert(
-      `Invalid entry! Please enter a valid move - "Rock", "Paper, or "Scissors".`
-    );
+     console.log("Invalid entry")
  }
-console.log(getHumanChoice(choose))
 }
-
+console.log(getHumanChoice(choose))
 
 
 function playRound(getHumanChoice, getComputerChoice) {
