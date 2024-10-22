@@ -7,13 +7,13 @@ function getComputerChoice() {
     var randomChoice = Math.floor(Math.random() * 3);
 
     if (randomChoice === 0) {
-        return "Paper";
+        return "paper";
      } 
         else if (randomChoice === 1) {
-        return "Rock";
+        return "rock";
         }
         else {
-        return "Scissors"
+        return "scissors"
         }
 }
 {
